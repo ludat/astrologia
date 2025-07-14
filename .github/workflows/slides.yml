@@ -39,7 +39,7 @@ jobs:
           pnpm install
       - name: Build slides
         run: |
-          pnpm build
+          pnpm build --base /astrologia/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
