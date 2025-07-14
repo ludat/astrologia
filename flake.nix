@@ -11,6 +11,7 @@
         devShells.default = with pkgs; mkShell {
           buildInputs = [
             pnpm
+            http-server
           ];
         };
       });
